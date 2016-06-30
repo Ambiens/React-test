@@ -1,5 +1,5 @@
 {
-  "name": "React-test",
+  "name": "react-test",
   "version": "1.0.0",
   "description": "React testing",
   "main": "index.html",
@@ -10,5 +10,14 @@
   "license": "MIT",
   "devDependencies": {
     "express": "^4.14.0"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ambiens/React-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ambiens/React-test/issues"
+  },
+  "homepage": "https://github.com/Ambiens/React-test#readme"
 }

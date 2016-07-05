@@ -4,20 +4,28 @@
   "description": "React testing",
   "main": "index.html",
   "scripts": {
-    "start": "node server.js"
+    "start": "webpack-dev-server"
   },
   "author": "Ambiens",
   "license": "MIT",
   "devDependencies": {
-    "express": "^4.14.0"
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "express": "^4.14.0",
+    "webpack": "^1.13.1"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ambiens/React-test.git"
+    "url": "git+https://github.com/Ambiens/react-test.git"
   },
   "bugs": {
-    "url": "https://github.com/Ambiens/React-test/issues"
+    "url": "https://github.com/Ambiens/react-test/issues"
   },
-  "homepage": "https://github.com/Ambiens/React-test#readme"
+  "homepage": "https://github.com/Ambiens/react-test#readme"
 }

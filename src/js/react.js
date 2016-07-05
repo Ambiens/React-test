@@ -1,4 +1,7 @@
-var CommentList = React.createClass({
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+/*var CommentList = React.createClass({
 	render: function() {
 		var commentNodes = this.props.data.map(function(comment) {
 			return (
@@ -60,7 +63,7 @@ var CommentBox = React.createClass({
 			</div>
 		);
 	}
-});
+});*/
 
 ReactDOM.render(
 	<CommentBox url="/api/comments" />,
